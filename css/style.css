@@ -40,6 +40,10 @@
   font-weight: 700;
 }
 
+.justificar-texto {
+  text-align: justify;
+}
+
 @media (max-width: 1000px) {
   .buscar {
     display: flex;

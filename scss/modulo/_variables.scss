@@ -3,7 +3,6 @@
     text-decoration: none;
 }
             
-    
 .texto {
     color: white;
 }
@@ -39,6 +38,10 @@ align-items: center;
   
 .textoImagen {
     font-weight: 700;
+}
+
+.justificar-texto {
+    text-align: justify;
 }
 
 @media (max-width: 1000px) {
