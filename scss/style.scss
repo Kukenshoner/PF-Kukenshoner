@@ -1,14 +1,15 @@
 @import "./modulo/variables";
 @import "./modulo/animaciones";
 
-header {
-    height: auto;
-}
+@import "./base/reset";
 
-main {
-    height: auto;
-}
+@import "./components/botones";
+@import "./components/checkbox";
 
-footer {
-    height: auto;
-}
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/media-queries";
+
+@import "./utilities/functions";
+@import "./utilities/mixins";

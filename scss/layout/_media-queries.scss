@@ -1,0 +1,26 @@
+@media (max-width: 1000px) {
+    .buscar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+}
+@media (min-width: 1000px) {
+    .buscar {
+      padding-left: 100px;
+    }
+}
+@media (min-width: 1200px) {
+    .buscar {
+      padding-left: 150px;
+    }
+}
+
+@media (max-width: 700px) {
+    .textoImagenn {
+        font-size: 10px;
+    }
+  }
+
+  

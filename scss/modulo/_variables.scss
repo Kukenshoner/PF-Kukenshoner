@@ -2,6 +2,11 @@
     color: white;
     text-decoration: none;
 }
+
+.textoLinkCads {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+}
             
 .texto {
     color: white;
@@ -44,21 +49,21 @@ align-items: center;
     text-align: justify;
 }
 
-@media (max-width: 1000px) {
-    .buscar {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      
-    }
+.bordeImagen {
+    border-radius: 20px;
 }
-@media (min-width: 1000px) {
-    .buscar {
-      padding-left: 100px;
-    }
+
+.variasFilas {
+    flex-wrap: wrap;
 }
-@media (min-width: 1200px) {
-    .buscar {
-      padding-left: 150px;
-    }
+
+
+.textoNegrita {
+    font-weight: bold;
+  font-size: 14px; /* Ajusta el tamaño de la fuente según tus preferencias */
+  color: rgb(255, 255, 255);
+  background-color: black;
+  padding: 5px;
+  border-radius: 10px;
 }
+
